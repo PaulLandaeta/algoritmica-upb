@@ -16,6 +16,18 @@ Al tratarse de un curso práctico, la mayoría de tu tiempo te la pasarás progr
 
 Las habilidades desarrolladas en este curso trascienden su aplicación inmediata, enriqueciendo tu desempeño académico en otros cursos dentro del currículo de Ingeniería de Sistemas Computacionales. Estas competencias son altamente valoradas por líderes de la industria del software, como Google, Facebook y Microsoft, reconociéndolas como cruciales para la innovación tecnológica y la resolución de problemas complejos. Además, estas habilidades no solo te abrirán puertas a oportunidades de empleo en empresas de prestigio, sino que también te proporcionarán una sólida base para una carrera profesional exitosa y en constante evolución en el campo de la tecnología.
 
+## Información Básica
+
+**Clases**: 07:15 - 09:15 
+
+**Profesor**: Paul Landaeta
+
+**Aula**: SOBOCE
+
+**Horario de Consultas**: Viernes de 10:00 a 12:00
+
+**Correo Electrónico**: paullandaeta@upb.edu
+
 ## 🚀 Skills para la Programación Competitiva
 
 La programación competitiva es un deporte mental que ayuda a mejorar las habilidades de programación. Es esencial dominar ciertas habilidades para destacarse en este campo.
@@ -38,3 +50,7 @@ Entender la complejidad algorítmica es fundamental para evaluar la eficiencia d
 ---
 
 Este repositorio está destinado a ser un recurso en evolución. Se anima a los estudiantes a contribuir con soluciones, mejorar el contenido existente y sugerir nuevos recursos. Juntos, podemos hacer de este un recurso invaluable para todos los interesados en mejorar sus habilidades algorítmicas.
+
+## Contribución
+
+Si tienes algo que añadir, ¡no dudes en hacerlo! Puedes consultar el Código de Conducta. Puedes enviar un PR o un issue; intentaré revisar personalmente todos.
