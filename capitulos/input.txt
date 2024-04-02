@@ -1,0 +1,10 @@
+usted va leer X numeros casos 
+seguido de X lineas que contiene
+3 numeros 
+
+5
+1 2 3
+1 5 3
+5 4 2
+3 4 5
+3 5 7
