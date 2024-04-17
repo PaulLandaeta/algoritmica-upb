@@ -1,5 +1,8 @@
 #include<bits/stdc++.h>
-using namespace std
+
+#include<iostream>
+
+using namespace std;
 int main() {
     int tamanho;
     cin>>tamanho; 
@@ -13,8 +16,8 @@ int main() {
         grafo[node1][nodo2] = 1;
     }
 
-    for(int i = 0; i < aristas; i++) {
-        for( int j = 0; j < aristas; j++) {
+    for(int i = 0; i < tamanho; i++) {
+        for( int j = 0; j < tamanho; j++) {
             cout<<"["<<grafo[i][j]<<"]"; 
         }
         cout<<endl;
