@@ -2,25 +2,38 @@
 
 #include<iostream>
 
+#define input freopen("in.txt","r",stdin)
+#define output freopen("out.txt","w",stdout)
+
 using namespace std;
 int main() {
-    int tamanho;
-    cin>>tamanho; 
-    int grafo[tamanho][tamanho];
+    input;
+       // Solicitar al usuario el número de nodos en el grafo.
+    int numNodos;
+    cin >> numNodos;
+
+    // Crear una matriz de adyacencia para representar el grafo.
+    int grafo[numNodos][numNodos];
     memset(grafo, 0, sizeof(grafo));
-    int aristas; 
-    cin>>aristas;
-    for(int i = 0; i < aristas; i++ ) {
-        int node1, nodo2;
-        cin>>node1>>nodo2;
-        grafo[node1][nodo2] = 1;
+
+    // Solicitar al usuario el número de aristas en el grafo.
+    int numAristas;
+    cin >> numAristas;
+
+    // Leer las aristas y actualizar la matriz de adyacencia.
+    for (int i = 0; i < numAristas; i++) {
+        int nodoOrigen, nodoDestino;
+        cin >> nodoOrigen >> nodoDestino;
+        // Establecer a 1 para indicar una arista dirigida del nodo origen al nodo destino.
+        grafo[nodoOrigen][nodoDestino] = 1;
     }
 
-    for(int i = 0; i < tamanho; i++) {
-        for( int j = 0; j < tamanho; j++) {
-            cout<<"["<<grafo[i][j]<<"]"; 
+    // Imprimir la matriz de adyacencia para visualizar el grafo.
+    for (int i = 0; i < numNodos; i++) {
+        for (int j = 0; j < numNodos; j++) {
+            cout << "[" << grafo[i][j] << "]";
         }
-        cout<<endl;
+        cout << endl;
     }
 
     return 0; 
