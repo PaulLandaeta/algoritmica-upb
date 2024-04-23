@@ -8,7 +8,8 @@
 using namespace std;
 int main() {
     input;
-       // Solicitar al usuario el número de nodos en el grafo.
+    output;
+    // Solicitar al usuario el número de nodos en el grafo.
     int numNodos;
     cin >> numNodos;
 
